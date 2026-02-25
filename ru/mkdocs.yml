@@ -33,6 +33,7 @@ nav:
     - 'Контроль границ': registry/bounds_check.md
     - 'Защита указателей': registry/pointer_guards.md
     - 'Валидация типов': registry/type_validation.md
+    - 'Lifecycle Tracking': registry/lifecycle_tracking.md
 
   - '🛠️ Инструменты':
     - 'AST Integration': tools/ast_integration.md

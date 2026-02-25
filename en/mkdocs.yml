@@ -33,6 +33,7 @@ nav:
     - 'Bounds Check': registry/bounds_check.md
     - 'Pointer Guards': registry/pointer_guards.md
     - 'Type Validation': registry/type_validation.md
+    - 'Lifecycle Tracking': registry/lifecycle_tracking.md
 
   - '🛠️ Tools':
     - 'AST Integration': tools/ast_integration.md
