@@ -40,11 +40,34 @@
 
 ---
 
-## 📚 Быстрые Ссылки
+## 📚 Документация
 
-- [Garden-Core Интеграция](garden-core.md)
-- [EDN Реестр](registry/memory_safety.md)
-- [Cursor AI Настройка](integration/cursor.md)
+### 📖 Манифест
+- [Главная](index.md)
+- [Garden-Core](garden-core.md)
+
+### 📜 Реестр EDN
+- [Обзор](registry/index.md)
+- [Безопасность памяти](registry/memory_safety.md)
+- [Контроль границ](registry/bounds_check.md)
+- [Защита указателей](registry/pointer_guards.md)
+- [Валидация типов](registry/type_validation.md)
+
+### 🛠️ Инструменты
+- [AST Integration](tools/ast_integration.md)
+- [Enforcer](tools/enforcer.md)
+- [Lisp Setup](tools/lisp_setup.md)
+
+### 🔌 Интеграция
+- [Cursor AI](integration/cursor.md)
+- [Clang AST](integration/clang.md)
+
+### 📋 Спецификация
+- [Agent Contract](spec/agent_contract.md)
+- [System Prompt](spec/system_prompt.md)
+
+### 💎 Экосистема
+- [Обзор экосистемы](ecosystem.md)
 
 ---
 
