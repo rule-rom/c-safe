@@ -17,6 +17,11 @@ plugins:
 extra_css:
   - css/mermaid.css
 
+extra:
+  analytics:
+    provider: yandex
+    property: 107005401
+
 nav:
   - '📖 Manifesto':
     - 'Home': index.md
