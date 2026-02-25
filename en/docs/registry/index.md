@@ -1,26 +1,28 @@
-# Реестр Интентов (Public)
+# Intent Registry (Public)
 
-Публичная библиотека EDN-контрактов для безопасного C/C++ кода.
+Public library of EDN contracts for safe C/C++ code.
 
-## Доступные интенты
+## Available Intents
 
-| Интент | Описание | Статус |
-|--------|----------|--------|
-| [Безопасность памяти (C-SAFE)](memory_safety.md) | Жизненный цикл указателей, safe-free | ✅ Public |
-| [Контроль границ (BOUNDS)](bounds_check.md) | Проверка границ массивов | 🚧 Draft |
-| [Валидация типов (TYPE-INTENT)](type_validation.md) | Безопасное приведение типов | 🚧 Draft |
+| Intent | Description | Status |
+|--------|-------------|--------|
+| [Memory Safety (C-SAFE)](memory_safety.md) | Pointer lifecycle, safe-free | ✅ Public |
+| [Bounds Check (BOUNDS)](bounds_check.md) | Array bounds validation | 🚧 Draft |
+| [Pointer Guards](pointer_guards.md) | Pointer arithmetic guards | 🚧 Draft |
+| [Type Validation](type_validation.md) | Safe type casting | 🚧 Draft |
+| [Lifecycle Tracking (Пастух)](lifecycle_tracking.md) | Variable birth/death tracking | 🚧 Draft |
 
-## Как использовать
+## How to Use
 
-1. Выберите нужный интент из реестра
-2. Добавьте EDN-контракт в свой проект
-3. Разметьте код garden-тегами
-4. Запустите валидацию через Enforcer
+1. Select intent from registry
+2. Add EDN contract to your project
+3. Tag code with garden-tags
+4. Run validation via Enforcer
 
-## Ссылки
+## Links
 
 - [Garden-Core Enforcer](../tools/enforcer.md)
-- [Агентский Контракт](../spec/agent_contract.md)
+- [Agent Contract](../spec/agent_contract.md)
 
 ---
 
