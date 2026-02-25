@@ -49,10 +49,6 @@ int unsafe_access(int* arr, size_t size, size_t index) {
 // [[/garden:intent]]
 ```
 
-## Статус разработки
-
-Этот интент находится в разработке. Для участия в тестировании обратитесь к [High Council](../spec/hierarchy.md).
-
 ---
 
 **Bake the Future. Build the Substrate.** 🛠️⚡️
