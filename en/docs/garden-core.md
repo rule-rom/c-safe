@@ -19,30 +19,6 @@ The engine eliminates hallucinations through strict division of labor:
 3. **AST Enforcement** — Engine parses Clang JSON AST and validates against contracts
 4. **Semantic Echo** — Generates Markdown reports for human verification
 
-## 📂 Repository Structure
-
-```
-core/
-├── deps.edn              # Babashka/Clojure configuration
-├── src/
-│   ├── enforcer.clj      # Engine: AST parsing + validation
-│   └── echo.clj          # Markdown report generator (Mirror)
-├── specs/                # Local intent prototypes (EDN)
-│   ├── c_core.edn
-│   ├── memory-safety.edn
-│   └── resource_guard.edn
-├── scripts/              # Build utilities
-├── MANIFEST.md           # Semantic Anchor Manifest
-└── CONTRACT.md           # AI Agent Contract
-```
-
-### Related Repositories
-
-| Repository | Purpose |
-|------------|---------|
-| [`intent-garden/core`](https://github.com/intent-garden/core) | Clojure validation engine |
-| [`rulerom/registry`](https://github.com/rule-rom/registry) | Global Intent contract library (Git Submodule) |
-
 ## 🛠️ Technology Stack
 
 | Component | Purpose |
