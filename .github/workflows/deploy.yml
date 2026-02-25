@@ -19,7 +19,7 @@ jobs:
 
       - name: Install mkdocs and dependencies
         run: |
-          pip install mkdocs mkdocs-material
+          pip install mkdocs mkdocs-material mkdocs-mermaid2-plugin
 
       - name: Build English version
         run: |
