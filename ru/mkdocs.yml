@@ -1,0 +1,26 @@
+site_name: C-SAFE 🌿 — Иммунная Система для Ко
+site_url: https://c-safe.rulerom.com
+theme:
+  name: material
+  palette:
+    scheme: slate
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - '📖 Манифест':
+    - 'Главная': index.md
+    - 'Garden-Core': garden-core.md
+  
+  - '📜 Реестр EDN':
+    - 'Безопасность памяти': registry/memory_safety.md
+    - 'Контроль границ': registry/bounds_check.md
+    - 'Защита указателей': registry/pointer_guards.md
+  
+  - '🛠️ Интеграция':
+    - 'Cursor AI': integration/cursor.md
+    - 'Clang AST': integration/clang.md
+  
+  - '💎 Поддержка': support.md

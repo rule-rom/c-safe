@@ -1,0 +1,26 @@
+site_name: C-SAFE 🌿 — Software Immune System
+site_url: https://c-safe.rulerom.com
+theme:
+  name: material
+  palette:
+    scheme: slate
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - '📖 Manifesto':
+    - 'Home': index.md
+    - 'Garden-Core': garden-core.md
+  
+  - '📜 EDN Registry':
+    - 'Memory Safety': registry/memory_safety.md
+    - 'Bounds Check': registry/bounds_check.md
+    - 'Pointer Guards': registry/pointer_guards.md
+  
+  - '🛠️ Integration':
+    - 'Cursor AI': integration/cursor.md
+    - 'Clang AST': integration/clang.md
+  
+  - '💎 Support': support.md

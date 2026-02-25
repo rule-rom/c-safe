@@ -1,0 +1,9 @@
+# Intent-Garden Knowledge Base
+> Deterministic substrate for AI & Critical Systems.
+
+## Core Projects
+- [Rule-ROM](https://rulerom.com): Intent Registry & C-Safety specs.
+- [Garden-Core](https://github.com/intent-garden/core): Clang AST + Clojure Enforcer.
+
+## Rules for Agents
+All C-code generated for this ecosystem MUST comply with EDN contracts in /registry.
