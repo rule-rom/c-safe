@@ -55,25 +55,25 @@ core/
 
 ```mermaid
 graph TD
-    A["<b>1. Human Definition</b><br/>Architect Input / Task Description"] --> B{AI Scan}
-    B -->|Search| C["<b>Rule-Rom Library</b>"]
-    B -->|Generate| D["<b>Draft Intent</b>"]
+    A["<b>1. Определение</b><br/>Ввод архитектора / Описание задачи"] --> B{AI Scan}
+    B -->|Поиск| C["<b>Библиотека Rule-Rom</b>"]
+    B -->|Генерация| D["<b>Черновик Intent</b>"]
 
-    C & D --> E["<b>2. Intent Formalization</b><br/>Lisp/EDN Contract"]
-    E --> F["<i>Semantic Echo</i><br/>Auto-generated Markdown Audit"]
-    F -->|Verification| G(("Human Approval"))
-    G -->|Fix| E
+    C & D --> E["<b>2. Формализация</b><br/>Lisp/EDN Контракт"]
+    E --> F["<i>Semantic Echo</i><br/>Авто-Markdown аудит"]
+    F -->|Проверка| G(("Аппрув человека"))
+    G -->|Исправление| E
 
-    G -->|Approved| H["<b>3. Prompt Injection</b><br/>Contract + Requirements"]
-    H --> I["<b>AI Coding & Tagging</b><br/>C/C++ Code + garden-tags"]
+    G -->|Одобрено| H["<b>3. Инъекция в промпт</b><br/>Контракт + Требования"]
+    H --> I["<b>4. Код + Тегирование</b><br/>C/C++ Код + garden-tags"]
 
-    I --> J["<b>4. AST Enforcement</b><br/>Clang JSON AST + Babashka"]
-    J --> K{Verification}
-    K -->|Violation| L["<b>Build Failed</b><br/>Retry Loop"]
+    I --> J["<b>5. AST Enforcement</b><br/>Clang JSON AST + Babashka"]
+    J --> K{Верификация}
+    K -->|Нарушение| L["<b>Сборка упала</b><br/>Повтор"]
     L --> H
 
-    K -->|Success| M["<b>5. Certification</b><br/>Deterministic Safety Proof"]
-    M --> N["Production Ready Code"]
+    K -->|Успех| M["<b>6. Сертификация</b><br/>Доказательство безопасности"]
+    M --> N["Готовый продакшен код"]
 
     style A fill:#e1f5fe,stroke:#01579b
     style E fill:#f3e5f5,stroke:#4a148c
