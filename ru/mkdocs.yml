@@ -23,4 +23,4 @@ nav:
     - 'Cursor AI': integration/cursor.md
     - 'Clang AST': integration/clang.md
   
-  - '💎 Поддержка': support.md
+  - '💎 Экосистема': ecosystem.md
